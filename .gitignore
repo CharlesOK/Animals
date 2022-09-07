@@ -1,0 +1,8 @@
+.vs
+.idea
+bin
+obj
+packages.config
+Web.config
+Web.Release.config
+Web.Debug.config

@@ -1,0 +1,19 @@
+﻿body {
+    background-color: ghostwhite;
+}
+
+h3 {
+   
+    font-weight: bold;
+    font-family: 'DynaPuff', cursive;
+}
+
+p {
+    font-weight: bold;
+    font-family: 'DynaPuff', cursive;
+    font-size: 25px;
+}
+
+.nav-link {
+    font-weight: bold;
+}
