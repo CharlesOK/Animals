@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 
 
-    public class Mammal : Animal
+     class Mammal : Animal
     {
         public int LifeSpan { get; }
         public int GestationPeriod { get; }
