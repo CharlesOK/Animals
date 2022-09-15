@@ -5,7 +5,7 @@ using System.Web;
 using System.Xml.Linq;
 
 
-   public class Animal
+   abstract class Animal
     {
         public string AnimalName { get; }
 
@@ -16,7 +16,7 @@ using System.Xml.Linq;
     }
 
         public string Diet { get; }
-        public string SoundOfAnimal { get; }
+       
 
 
         protected Animal(string animalName, string habitat, string diet)
@@ -26,13 +26,11 @@ using System.Xml.Linq;
             Diet = diet;
         }
 
-        public virtual string AnimalSounds()
-        {
-            return SoundOfAnimal;
-        }
+        public abstract string AnimalSounds();
+        
 
         public override string ToString()
         {
-            return string.Format("{0}", AnimalName);
+            return " " + AnimalName;
         }
     }
