@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-    public class Reptiles : Animal
+     class Reptiles : Animal
     {
         public int LifeSpan { get; }
         public int GestationPeriod { get; }
