@@ -8,12 +8,11 @@ using System.Xml.Linq;
    abstract class Animal
     {
         public string AnimalName { get; }
-
-     private string Habitat;
+        private string Habitat;
         public string habitat
-    {
+        {
         get { return Habitat; }
-    }
+        }
 
         public string Diet { get; }
        
